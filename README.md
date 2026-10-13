@@ -85,7 +85,7 @@ Use only for lawful research of public information. Respect website terms, rate 
 See [Safety notes](docs/SAFETY.md).
 
 ## Contributing
-Issues and pull requests are welcome. Do not submit private or sensitive personal information.
+<img src="assets/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f26636f6c756d6e733d3235266d61783d313030303026267265706f3d736865726c6f636b2d70726f6a6563742f736865726c6f636b.svg" alt="Xosint Logo" width="500">
 
 ## License
 MIT. See [LICENSE](LICENSE).
