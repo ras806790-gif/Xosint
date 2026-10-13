@@ -33,13 +33,11 @@ Kali Linux is **not required**.
 ```bash
 pkg update
 pkg install git python -y
-git clone https://github.com/YOUR_USERNAME/Xosint.git
+git clone https://github.com/ras806790-gif/Xosint.git
 cd Xosint
 chmod +x install.sh
 ./install.sh
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username.
 
 ## Usage
 
