@@ -1,1 +1,91 @@
+<div align="center">
+
 # Xosint
+### Lightweight public username checker for Android & Termux
+
+[![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Android-3DDC84?style=for-the-badge)](#requirements)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
+
+**Xosint** checks whether public profile URLs respond for a given username.
+Designed to run on Termux without Kali Linux.
+
+</div>
+
+> **Important:** Results are indicators, not identity verification. A responding page does not prove that an account exists or belongs to a particular person. Sites may block automated requests, change URLs, or return misleading responses.
+
+## Features
+- Android and Termux friendly
+- Checks a curated list of public profile URLs
+- Concurrent requests with a modest worker limit
+- Saves timestamped TXT reports
+- Uses Python standard library only
+
+## Requirements
+- Android with [Termux](https://termux.dev/)
+- Python 3.9+
+- Internet access
+
+Kali Linux is **not required**.
+
+## Install
+
+```bash
+pkg update
+pkg install git python -y
+git clone https://github.com/YOUR_USERNAME/Xosint.git
+cd Xosint
+chmod +x install.sh
+./install.sh
+```
+
+Replace `YOUR_USERNAME` with your GitHub username.
+
+## Usage
+
+```bash
+python xosint.py
+```
+
+Or specify a username:
+
+```bash
+python xosint.py example_username
+```
+
+Reports are saved in the current folder, e.g. `xosint_example_username_20261013_120000.txt`.
+
+## Status labels
+
+| Status | Meaning |
+|---|---|
+| `POTENTIAL` | URL responded successfully; verify manually. |
+| `NOT DETECTED` | Site returned HTTP 404; this does not prove no account exists. |
+| `UNKNOWN` | Response may indicate a block, rate limit, or uncertain result. |
+| `ERROR` | Network, DNS, TLS, or timeout error. |
+
+## Project structure
+
+```text
+Xosint/
+├── .github/workflows/python-check.yml
+├── docs/SAFETY.md
+├── xosint/__init__.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── install.sh
+├── requirements.txt
+└── xosint.py
+```
+
+## Responsible use
+Use only for lawful research of public information. Respect website terms, rate limits, and privacy. Do not use the tool to harass, stalk, dox, or target anyone. Xosint does not access private accounts, passwords, or hidden data.
+
+See [Safety notes](docs/SAFETY.md).
+
+## Contributing
+Issues and pull requests are welcome. Do not submit private or sensitive personal information.
+
+## License
+MIT. See [LICENSE](LICENSE).
