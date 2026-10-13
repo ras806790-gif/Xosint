@@ -2,7 +2,7 @@
 
 <img src="assets/xosint-logo.png" alt="Xosint Logo" width="500">
 
-# Xosint
+# Xosint 
 ### Lightweight public username checker for Android & Termux
 
 [![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20Android-3DDC84?style=for-the-badge)](#requirements)
@@ -83,6 +83,12 @@ Xosint/
 Use only for lawful research of public information. Respect website terms, rate limits, and privacy. Do not use the tool to harass, stalk, dox, or target anyone. Xosint does not access private accounts, passwords, or hidden data.
 
 See [Safety notes](docs/SAFETY.md).
+
+## SUPPORT DEVELOPER
+TIKTOK @rasyafunix               
+
+Instagram @rasyahgh
+
 
 ## Contributing
 <img src="assets/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f26636f6c756d6e733d3235266d61783d313030303026267265706f3d736865726c6f636b2d70726f6a6563742f736865726c6f636b.svg" alt="Xosint Logo" width="500">
