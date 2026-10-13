@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/xosint-logo.png" alt="Xosint Logo" width="500">
+
 # Xosint
 ### Lightweight public username checker for Android & Termux
 
