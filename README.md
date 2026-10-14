@@ -89,9 +89,14 @@ See [Safety notes](docs/SAFETY.md).
 https://github.com/sherlock-project/sherlock
 
 ## SUPPORT DEVELOPER
-TIKTOK @rasyafunix               
+TIKTOK 
+titok.com/@rasyafunix               
 
-Instagram @rasyahgh
+INSTAGRAM 
+Instagram.com/@rasyahgh
+
+TELEGRAM
+t.me/roxinih
 
 
 ## Contributing
