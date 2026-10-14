@@ -84,6 +84,10 @@ Use only for lawful research of public information. Respect website terms, rate 
 
 See [Safety notes](docs/SAFETY.md).
 
+## inspired
+
+https://github.com/sherlock-project/sherlock
+
 ## SUPPORT DEVELOPER
 TIKTOK @rasyafunix               
 
